@@ -10,6 +10,7 @@ module.exports = {
     after: browser => {
         browser.end()
     },
+    // These are the main navigation buttons across the top of the site.
     'Top NavBar Button Tests': browser => {
         browser
             .click(selectors.homePage.topNavBtns.contact)
@@ -28,6 +29,7 @@ module.exports = {
             .waitForElementVisible('body', 1000)
             .click(selectors.homePage.topNavBtns.clipHome)
     },
+    // These are the 2 buttons in the middle of the media banner, "Buy Your Clip", and "Register Here".
     'Banner Button Tests': browser => {
         browser
         .click(selectors.homePage.bannerBtns.buyReader)
@@ -36,6 +38,7 @@ module.exports = {
         browser
         .click(selectors.homePage.bannerBtns.registerNow)
     },
+    // These are the individual links listed under "Our benefits".
     'Benefits Section Button Tests': browser => {
         browser
         .click(selectors.homePage.benefitsBtns.meetClip)
@@ -54,6 +57,7 @@ module.exports = {
         .waitForElementVisible('body', 1000)
         browser.back()
     },
+    // These are the buttons listed under "Our commissions", where the amount is set to $100.00.
     'Commissions/Rate Buttons Tests': browser => {
         browser
         .clearValue(selectors.homePage.commissionsBtns.amount)
@@ -61,12 +65,15 @@ module.exports = {
         .click(selectors.homePage.commissionsBtns.calculate)
         browser.expect.element(selectors.homePage.commissionsBtns.total).text.to.contain('100.00')
         browser.back()
+        browser
     },
+    // This is the middle of the page, "Find a Store" button.
     'Find a Store Button Test': browser => {
         browser
         .click(selectors.homePage.findStore)
         .waitForElementVisible('body', 1000)
     },
+    // These are all the buttons that showcase how Clip can be used in different spaces.
     'Business Buttons Tests': browser => {
         browser
         .click(selectors.homePage.everyBusinessBtns.retail)
@@ -107,6 +114,7 @@ module.exports = {
         browser
         .click(selectors.homePage.everyBusinessBtns.registerNow)
     },
+    // These buttons/links are found under the "Using Clip is fast and easy" section of the homepage.
     'Fast & Easy Section Buttons': browser => {
         browser
         .click(selectors.homePage.fastEasyBtns.registerNow)
@@ -123,6 +131,7 @@ module.exports = {
         browser
         .click(selectors.homePage.fastEasyBtns.android)
     },
+    // These buttons are found towards the bottom in the "Do you need help?" section.
     'Help Section Buttons': browser => {
         browser
         .click(selectors.homePage.helpBtns.call)
@@ -133,6 +142,7 @@ module.exports = {
         browser
         .click(selectors.homePage.helpBtns.questions)
     },
+    // These are all the buttons found in the bottom Navigation pane, the the very bottom of the homepage.
     'Bottom NavBar Button Tests': browser => {
         browser
         .click(selectors.homePage.bottomNavBtns.about)
@@ -172,14 +182,6 @@ module.exports = {
         browser.back()
         browser
         .click(selectors.homePage.bottomNavBtns.googlePlay)
-        .waitForElementVisible('body', 1000)
-        browser.back()
-        browser
-        .click(selectors.homePage.bottomNavBtns.privacyPolicy)
-        .waitForElementVisible('body', 1000)
-        browser.back()
-        browser
-        .click(selectors.homePage.bottomNavBtns.termsConditions)
         .waitForElementVisible('body', 1000)
         browser.back()
         browser

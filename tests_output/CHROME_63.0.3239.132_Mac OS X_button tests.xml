@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="4"
+<testsuites errors="1"
             failures="0"
             tests="9">
 
   <testsuite name="button tests"
-    errors="4" failures="0" hostname="" id="" package="button tests" skipped="0"
-    tests="9" time="153.7" timestamp="Fri, 02 Feb 2018 08:09:39 GMT">
+    errors="1" failures="0" hostname="" id="" package="button tests" skipped="0"
+    tests="9" time="171.2" timestamp="Fri, 02 Feb 2018 18:03:02 GMT">
   
-    <testcase name="Top NavBar Button Tests" classname="button tests" time="15.90" assertions="5">
+    <testcase name="Top NavBar Button Tests" classname="button tests" time="20.24" assertions="5">
 
     
 
@@ -20,51 +20,14 @@
     
     </testcase>
   
-    <testcase name="Banner Button Tests" classname="button tests" time="11.16" assertions="2">
+    <testcase name="Banner Button Tests" classname="button tests" time="17.49" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="Benefits Section Button Tests" classname="button tests" time="9.981" assertions="5">
-
-    
-
-    
-
-    
-
-    
-
-    
-    </testcase>
-  
-    <testcase name="Commissions/Rate Buttons Tests" classname="button tests" time="2.226" assertions="2">
-
-    
-
-    
-    </testcase>
-  
-    <testcase name="Find a Store Button Test" classname="button tests" time="4.733" assertions="2">
-
-    
-
-    
-    </testcase>
-  
-    <testcase name="Business Buttons Tests" classname="button tests" time="21.54" assertions="10">
-
-    
-
-    
-
-    
-
-    
-
-    
+    <testcase name="Benefits Section Button Tests" classname="button tests" time="12.06" assertions="5">
 
     
 
@@ -77,7 +40,33 @@
     
     </testcase>
   
-    <testcase name="Fast &amp; Easy Section Buttons" classname="button tests" time="10.64" assertions="4">
+    <testcase name="Commissions/Rate Buttons Tests" classname="button tests" time="2.873" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Find a Store Button Test" classname="button tests" time="4.861" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Business Buttons Tests" classname="button tests" time="25.86" assertions="10">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 
     
 
@@ -88,7 +77,9 @@
     
     </testcase>
   
-    <testcase name="Help Section Buttons" classname="button tests" time="13.19" assertions="3">
+    <testcase name="Fast &amp; Easy Section Buttons" classname="button tests" time="10.00" assertions="4">
+
+    
 
     
 
@@ -97,11 +88,16 @@
     
     </testcase>
   
-    <testcase name="Bottom NavBar Button Tests" classname="button tests" time="64.29" assertions="13">
+    <testcase name="Help Section Buttons" classname="button tests" time="14.62" assertions="3">
 
     
 
     
+
+    
+    </testcase>
+  
+    <testcase name="Bottom NavBar Button Tests" classname="button tests" time="63.22" assertions="11">
 
     
 
@@ -130,40 +126,7 @@
   
     <system-err>
       ERROR: Unable to locate element: &#34;a[href=&#34;https://clip.mx/us/tel:015563932323&#34;]&#34; using: css selector
-    at Object.Help Section Buttons (/Users/jake/GitHub Repos/payclip/nightwatch/tests/button tests.js:128:10)
-    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
-    at _combinedTickCallback (internal/process/next_tick.js:131:7)
-ERROR: Unable to locate element: &#34;a[href=&#34;https://clip.mx/us/contacto&#34;]&#34; using: css selector
-    at Object.Bottom NavBar Button Tests (/Users/jake/GitHub Repos/payclip/nightwatch/tests/button tests.js:154:10)
-    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
-    at _combinedTickCallback (internal/process/next_tick.js:131:7)
-ERROR: Unable to locate element: &#34;a[href=&#34;https://clip.mx/us/privacidad&#34;]&#34; using: css selector
-    at Object.Bottom NavBar Button Tests (/Users/jake/GitHub Repos/payclip/nightwatch/tests/button tests.js:178:10)
-    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
-    at _combinedTickCallback (internal/process/next_tick.js:131:7)
-ERROR: Unable to locate element: &#34;a[href=&#34;https://clip.mx/us/terminos&#34;]&#34; using: css selector
-    at Object.Bottom NavBar Button Tests (/Users/jake/GitHub Repos/payclip/nightwatch/tests/button tests.js:182:10)
+    at Object.Help Section Buttons (/Users/jake/GitHub Repos/payclip/nightwatch/tests/button tests.js:129:10)
     at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
     at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
     at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
