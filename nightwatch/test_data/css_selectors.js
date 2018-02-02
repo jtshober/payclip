@@ -14,11 +14,13 @@ module.exports = {
     benefitsBtns: {
         meetClip: 'a[id="button_benefits_shop"]',
         mobility: 'a[href="https://clip.mx/us/dispositivos"]',
-        sellMore: 'a[href="https://clip.mx/us/mensualidades/"]',
+        sellMore: 'a[href="https://clip.mx/us/mensualidades"]',
         easyToUse: 'a[href="#"]',
-        security: 'a[href="https://clip.mx/us/seguridad/"]',
+        secure: 'a[href="https://clip.mx/us/seguridad"]'
     },
     commissionsBtns: {
+        amount: 'input[name="text"]',
+        total: 'p[id=total]',
         rate: 'select[name="select"]',
         calculate: 'input[class="btn btn-primary"]',
         moreInfo1: 'a[href="https://clip.mx/us/comisiones-para-mensualidades"]',
