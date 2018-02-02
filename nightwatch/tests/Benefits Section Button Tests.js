@@ -10,32 +10,6 @@ module.exports = {
     after: browser => {
         browser.end()
     },
-    'Top NavBar Button Tests': browser => {
-        browser
-            .click(selectors.homePage.topNavBtns.contact)
-            .waitForElementVisible('body', 1000)        
-            browser.back
-        browser
-            .click(selectors.homePage.topNavBtns.help)
-            .waitForElementVisible('body', 1000)
-        browser.back
-        browser
-            .click(selectors.homePage.topNavBtns.account)
-            .waitForElementVisible('body', 1000)
-        browser.back
-        browser
-            .click(selectors.homePage.topNavBtns.buyReader)
-            .waitForElementVisible('body', 1000)
-            .click(selectors.homePage.topNavBtns.clipHome)
-    },
-    'Banner Button Tests': browser => {
-        browser
-        .click(selectors.homePage.bannerBtns.buyReader)
-        .waitForElementVisible('body', 1000)
-        browser.back
-        browser
-        .click(selectors.homePage.bannerBtns.registerNow)
-    },
     'Benefits Section Button Tests': browser => {
         browser
         .click(selectors.homePage.benefitsBtns.meetClip)
@@ -55,6 +29,5 @@ module.exports = {
         browser.back
         browser
         .click(selectors.homePage.benefitsBtns.security)
-    },
-
+    }
 }

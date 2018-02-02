@@ -13,7 +13,7 @@ module.exports = {
     },
     benefitsBtns: {
         meetClip: 'a[id="button_benefits_shop"]',
-        mobility: 'a[href="https://clip.mx/us/dispositivos/"]',
+        mobility: 'a[href="https://clip.mx/us/dispositivos"]',
         sellMore: 'a[href="https://clip.mx/us/mensualidades/"]',
         easyToUse: 'a[href="#"]',
         security: 'a[href="https://clip.mx/us/seguridad/"]',

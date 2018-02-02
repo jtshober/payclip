@@ -1,33 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="4"
+<testsuites errors="3"
             failures="0"
-            tests="3">
+            tests="1">
 
-  <testsuite name="jake_tests"
-    errors="4" failures="0" hostname="" id="" package="jake_tests" skipped="0"
-    tests="3" time="21.47" timestamp="Fri, 02 Feb 2018 05:06:08 GMT">
+  <testsuite name="Benefits Section Button Tests"
+    errors="3" failures="0" hostname="" id="" package="Benefits Section Button Tests" skipped="0"
+    tests="1" time="9.745" timestamp="Fri, 02 Feb 2018 05:15:20 GMT">
   
-    <testcase name="Top NavBar Button Tests" classname="jake_tests" time="13.56" assertions="5">
-
-    
-
-    
-
-    
-
-    
-
-    
-    </testcase>
-  
-    <testcase name="Banner Button Tests" classname="jake_tests" time="3.631" assertions="2">
-
-    
-
-    
-    </testcase>
-  
-    <testcase name="Benefits Section Button Tests" classname="jake_tests" time="4.283" assertions="5">
+    <testcase name="Benefits Section Button Tests" classname="Benefits Section Button Tests" time="9.745" assertions="5">
 
     
 
@@ -44,7 +24,7 @@
   
     <system-err>
       ERROR: Unable to locate element: &#34;a[id=&#34;button_hero&#34;]&#34; using: css selector
-    at Object.Banner Button Tests (/Users/jake/GitHub Repos/payclip/nightwatch/tests/jake_tests.js:37:10)
+    at Object.Banner Button Tests (/Users/jake/GitHub Repos/payclip/nightwatch/tests/Banner Button Tests.js:19:10)
     at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
     at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
     at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
@@ -55,7 +35,7 @@
     at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
     at _combinedTickCallback (internal/process/next_tick.js:131:7)
 ERROR: Unable to locate element: &#34;a[href=&#34;https://clip.mx/us/dispositivos&#34;]&#34; using: css selector
-    at Object.Benefits Section Button Tests (/Users/jake/GitHub Repos/payclip/nightwatch/tests/jake_tests.js:45:10)
+    at Object.Benefits Section Button Tests (/Users/jake/GitHub Repos/payclip/nightwatch/tests/Benefits Section Button Tests.js:19:10)
     at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
     at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
     at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
@@ -66,7 +46,7 @@ ERROR: Unable to locate element: &#34;a[href=&#34;https://clip.mx/us/dispositivo
     at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
     at _combinedTickCallback (internal/process/next_tick.js:131:7)
 ERROR: Unable to locate element: &#34;a[href=&#34;https://clip.mx/us/mensualidades/&#34;]&#34; using: css selector
-    at Object.Benefits Section Button Tests (/Users/jake/GitHub Repos/payclip/nightwatch/tests/jake_tests.js:49:10)
+    at Object.Benefits Section Button Tests (/Users/jake/GitHub Repos/payclip/nightwatch/tests/Benefits Section Button Tests.js:23:10)
     at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
     at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
     at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
@@ -77,7 +57,7 @@ ERROR: Unable to locate element: &#34;a[href=&#34;https://clip.mx/us/mensualidad
     at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
     at _combinedTickCallback (internal/process/next_tick.js:131:7)
 ERROR: Unable to locate element: &#34;a[href=&#34;https://clip.mx/us/seguridad/&#34;]&#34; using: css selector
-    at Object.Benefits Section Button Tests (/Users/jake/GitHub Repos/payclip/nightwatch/tests/jake_tests.js:57:10)
+    at Object.Benefits Section Button Tests (/Users/jake/GitHub Repos/payclip/nightwatch/tests/Benefits Section Button Tests.js:31:10)
     at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
     at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
     at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
